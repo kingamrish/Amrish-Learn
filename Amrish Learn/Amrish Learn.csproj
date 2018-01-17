@@ -70,6 +70,8 @@
       <Link>jscript cal.html</Link>
     </Content>
     <Content Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\jscript var.html" />
+    <Content Include="js7.html" />
+    <Content Include="js8.html" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\5gb.pubxml" />
     <None Include="Web.Debug.config">
