@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{188E4037-691C-4848-818F-1C7D2D886E31}</ProjectGuid>
+    <ProjectGuid>{8C4F58C6-399E-4511-928E-ED7EE64A9166}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Amrish_Learn</RootNamespace>
-    <AssemblyName>Amrish Learn</AssemblyName>
+    <RootNamespace>WebApplication_2018</RootNamespace>
+    <AssemblyName>WebApplication 2018</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -66,12 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\jscript cal.html">
-      <Link>jscript cal.html</Link>
-    </Content>
-    <Content Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\jscript var.html" />
     <Content Include="packages.config" />
-    <None Include="Properties\PublishProfiles\5gb.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -98,9 +93,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49726</DevelopmentServerPort>
+          <DevelopmentServerPort>64912</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49726/</IISUrl>
+          <IISUrl>http://localhost:64912/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

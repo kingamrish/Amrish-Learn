@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <style type="text/css">
+        td:last-child{
+            width:300px;
+            height:50px;
+        }
+    </style>
+    <script type="text/javascript">
+        function helpOver(o){
+            if(o.id =="n1")
+                document.getElementById("p1").innerHTML = "Type number higher then 100.";
+            if (o.id == "n2")
+                document.getElementById("p2").innerHTML = "Type number higher thwn 500.";
+        }
+        function helpOut() {
+            document.getElementById("p1").innerHTML = "";
+            document.getElementById("p2").innerHTML = "";
+        }
+        function check(o) {
+            if (o.id == "n1") {
+                if (o.value < 100)
+                    o.style.background = "pink";
+                else
+                    o.style.background = "green";
+            }
+            if (o.id == "n2") {
+                if (o.value < 500)
+                    o.style.background = "pink";
+                else
+                    o.style.background = "blue";
+            }
+            myForm.sum.value = parseInt(myForm.n1.value) + parseInt(myForm.n2.value);
+        }
+    </script>
+    
+</head>
+<body>
+    <form id="myForm">
+    <table>
+        <tr>
+            <td>No 1: </td>
+            <td>
+                <input type="text" id="n1" value="0" onmouseover="helpOver(this);" onmouseout="helpOut();" onblur="check(this);" />
+            </td>
+            <td><p id="p1"></p></td>
+         </tr>
+        <tr>
+            <td>No 2: </td>
+            <td>
+                <input type="text" id="n2" value="0" onmouseover="helpOver(this);" onmouseout="helpOut();" onblur="check(this);" />
+            </td>
+            <td><p id="p2"></p></td>
+        </tr>
+        <tr>
+            <td>sum : </td>
+            <td><input type="text" id="sum" readonly /></td>
+            <td><p name="p3"></p></td>
+        </tr>
+    </table>
+        </form>
+</body>
+</html>
