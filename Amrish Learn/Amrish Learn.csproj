@@ -67,11 +67,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\jscript cal.html">
-      <Link>jscript cal.html</Link>
+      <Link>JS Exmaple\jscript cal.html</Link>
     </Content>
-    <Content Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\jscript var.html" />
-    <Content Include="js7.html" />
-    <Content Include="js8.html" />
+    <Content Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\jscript var.html">
+      <Link>JS Exmaple\jscript var.html</Link>
+    </Content>
+    <Content Include="JS Exmaple\js count check items.htm" />
+    <Content Include="JS Exmaple\js broser suport.html" />
+    <Content Include="JS Exmaple\js button clik count.html" />
+    <Content Include="JS Exmaple\js promat image.html" />
+    <Content Include="JS Exmaple\js time.htm" />
+    <Content Include="JS Exmaple\js sort name.html" />
+    <Content Include="JS Exmaple\js table.html" />
+    <Content Include="JS Exmaple\js7.html" />
+    <Content Include="JS Exmaple\js8.html" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\5gb.pubxml" />
     <None Include="Web.Debug.config">
@@ -86,6 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="jQuery Example\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
