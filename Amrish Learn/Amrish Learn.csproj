@@ -72,7 +72,15 @@
     <Content Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\jscript var.html">
       <Link>JS Exmaple\jscript var.html</Link>
     </Content>
+    <Content Include="img\a.gif" />
+    <Content Include="img\b.gif" />
+    <Content Include="img\img1.jpg" />
+    <Content Include="img\img2.png" />
+    <Content Include="jQuery Example\jq3.html" />
+    <Content Include="jQuery Example\jquery-2.1.3.js" />
+    <Content Include="jQuery Example\js2.html" />
     <Content Include="jQuery Example\jq1.html" />
+    <Content Include="jQuery Example\moser see.html" />
     <Content Include="JS Exmaple\js count check items.htm" />
     <Content Include="JS Exmaple\js broser suport.html" />
     <Content Include="JS Exmaple\js button clik count.html" />
